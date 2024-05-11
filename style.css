@@ -1,0 +1,177 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+}
+
+.navigation {
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.navigation>ul {
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+}
+
+.navigation>ul>li {
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(80, 80, 252);
+}
+
+.user{
+    font-size: 20px;
+    margin-left: 30%;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.user:hover{
+    color: #1964e6;
+}
+
+.box1 {
+    width: 1000px;
+    height: 80px;
+    border: 1px solid rgb(252, 98, 63);
+    border-radius: 10px;
+    background: rgb(252, 98, 63);
+    margin-top: 50px;
+    margin-left: 12%;
+    padding-top: 25px;
+    padding-left: 30px;
+    display: flex;
+}
+
+.icon {
+    font-size: 40px;
+}
+
+.p {
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #fff;
+    display: flex;
+}
+
+.p>span {
+    font-weight: bold;
+}
+
+.button {
+    width: 180px;
+    height: 35px;
+    margin-top: 2px;
+    margin-left: 50px;
+    padding-top: 12px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    background: #fff;
+    border-bottom: 6px solid rgb(0, 0, 0);
+    border-left: 1.5px solid rgb(0, 0, 0);
+    border-right: 1.5px solid rgb(0, 0, 0);
+    border-top: 1.5px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button>i {
+    font-size: 18px;
+}
+
+.button:hover {
+    background: #cfcece;
+}
+
+.text>h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 250px;
+    color: rgb(9, 9, 79);
+    font-family: cera-round-pro, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.yellow {
+    color: rgb(255, 157, 0);
+}
+
+.text2 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 250px;
+    color: rgb(9, 9, 79);
+    word-spacing: 5px;
+    line-height: 30px;
+    font-family: cera-round-pro, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.t2 {
+    display: flex;
+}
+
+.t2 {
+    margin-left: 420px;
+}
+
+.t2>h1 {
+    width: 140px;
+    height: 35px;
+    margin-top: 2px;
+    margin-left: 50px;
+    padding-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    background: #fff;
+    border-bottom: 8px solid rgb(0, 0, 0);
+    border-left: 1.5px solid rgb(0, 0, 0);
+    border-right: 1.5px solid rgb(0, 0, 0);
+    border-top: 1.5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.t2>.first {
+    background: #fbd70e;
+}
+
+.t2>i{
+    padding-left: 10px;
+}
+
+.first:hover{
+    background: #ffc400;
+}
+
+.sec:hover{
+    background:  #cfcece;
+}
+
+.flag>i{
+    color:  #1964e6;
+}
+
+.search>i:hover{
+ color: rgb(40, 40, 249);
+}
+
+.flag>i:hover{
+    color: rgb(255, 255, 0);
+}
